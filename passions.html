@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Mes Passions - Llumière Sangwa</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon Portfolio</a>
+            <a href="index.HTML">Mon Portfolio</a>
         </div>
         <nav>
             <ul>
@@ -22,17 +22,69 @@
             </ul>
         </nav>
     </header>
-   <main>
-    <h1> Voici mes Passions</h1>
-   </main>
-    <footer>  
-        <h6>
-            &copy; 2026 Tous droits réservé
-        </h6>
+
+    <main>
+        <section class="passions-section">
+            <h2>Mes Passions</h2>
+            <p class="intro-text">Au-delà du code, voici ce qui m'anime au quotidien et nourrit ma créativité.</p>
+            
+            <div class="passions-grid">
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fa-solid fa-pen-nib"></i>
+                    </div>
+                    <div class="passion-content">
+                        <h3>Design & Branding</h3>
+                        <p>Plus qu'un métier, c'est une vocation. J'aime donner vie à des idées à travers des identités visuelles fortes, particulièrement dans l'univers du sport professionnel.</p>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fa-solid fa-camera-retro"></i>
+                    </div>
+                    <div class="passion-content">
+                        <h3>Photographie</h3>
+                        <p>Capturer l'instant présent, jouer avec la lumière et les perspectives. La photo me permet de voir le monde sous un angle différent et d'affiner mon œil artistique.</p>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fa-solid fa-volleyball"></i>
+                    </div>
+                    <div class="passion-content">
+                        <h3>Sport & Football</h3>
+                        <p>Fervent supporter de clubs comme le TP Mazembe ou Liverpool. Le sport m'apprend la discipline, le travail d'équipe et la persévérance.</p>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="passion-content">
+                        <h3>Nouvelles Techs</h3>
+                        <p>Toujours à l'affût des dernières innovations en IA et en hardware. J'aime comprendre comment les machines fonctionnent et comment elles peuvent nous aider.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="passion-gallery">
+                <div class="gallery-item"><img src="IMAGE_PASSION_1" alt="Design"></div>
+                <div class="gallery-item"><img src="IMAGE_PASSION_2" alt="Photo"></div>
+                <div class="gallery-item"><img src="IMAGE_PASSION_3" alt="Sport"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tous droits réservés</p>
         <div>
             <a href=""><i class="fa-brands fa-github"></i></a>
             <a href=""><i class="fa-brands fa-x-twitter"></i></a>
             <a href=""><i class="fa-brands fa-linkedin"></i></a>
-        </div></footer>
+        </div>
+    </footer>
 </body>
 </html>
